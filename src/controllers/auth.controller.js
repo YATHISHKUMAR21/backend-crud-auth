@@ -57,7 +57,8 @@ async function loginController(req, res) {
     return res.status(200).json({message: 'User logged in successfully', user});
 }
 
-
+//2nd commit
+console.log("Auth controller updated");
 
 
 module.exports = {registerController , loginController};  
