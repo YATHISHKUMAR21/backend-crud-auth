@@ -7,5 +7,9 @@ router.post('/register', registerController );
 
 router.post('/login', loginController);
 
+//post /api/posts {image-file} [protected]
+
+
+
 
 module.exports = router;
